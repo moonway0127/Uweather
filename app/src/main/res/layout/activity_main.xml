@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="xin.moonway.uweather.ui.MainActivity">
+
+   <!--<Button-->
+       <!--android:id="@+id/nihaowenwen"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="你好问问"-->
+       <!--tools:layout_editor_absoluteX="137dp"-->
+       <!--tools:layout_editor_absoluteY="211dp" />-->
+
+
+   <!--<Button-->
+       <!--android:id="@+id/stop"-->
+       <!--android:layout_width="wrap_content"-->
+       <!--android:layout_height="wrap_content"-->
+       <!--android:text="stop"-->
+       <!--tools:layout_editor_absoluteX="137dp"-->
+       <!--tools:layout_editor_absoluteY="211dp" />-->
+
+   <TextView
+       android:id="@+id/mText"
+       android:text="1111"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <TextView
+       android:textSize="50px"
+       android:textColor="#000000"
+       android:text="Designed by moonway"
+       android:layout_centerHorizontal="true"
+       android:layout_alignParentBottom="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+</RelativeLayout>
